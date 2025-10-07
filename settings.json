@@ -1,0 +1,6 @@
+{
+    "api_key": "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",
+    "model": "llama-3.3-70b-versatile",
+    "temperature": 0.90000000000000002220446049250313080847263336181640625,
+    "system_prompt": "You are Digita, an AI digital marketing assistant for small businesses. Provide concise and helpful marketing advice."
+}

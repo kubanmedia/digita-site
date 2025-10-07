@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+                            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+    <!-- Homepage - Highest Priority -->
+    <url>
+        <loc>https://digita.click/</loc>
+        <lastmod>2024-12-29</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- Company Information -->
+ 
+    <url>
+       <loc>https://digita.click/smm-services</loc>
+        <lastmod>2025-06-30</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.5</priority>
+    </url>
+   <url> <loc>https://digita.click/privacy-policy</loc>
+        <lastmod>2025-06-30</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+ <url> <loc>https://digita.click/ai-bot/</loc>
+        <lastmod>2025-06-30</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+ <url> <loc>https://digita.click/terms-of-service.html</loc>
+        <lastmod>2025-06-30</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+ <url> <loc>https://digita.click/cookie-policy.html</loc>
+        <lastmod>2025-06-30</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+ <url> <loc>https://digita.click/ai-human-team.html</loc>
+        <lastmod>2025-06-30</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+ <url> <loc>https://digita.click/contact.html</loc>
+        <lastmod>2025-06-30</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.5</priority>
+    </url>
+ 
+ <url> <loc>https://digita.click/pricing.html</loc>
+        <lastmod>2025-06-30</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+ <url> <loc>https://digita.click/early_access.html</loc>
+        <lastmod>2025-06-30</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+ <url> <loc>https://digita.click/youtube-promotion.html</loc>
+        <lastmod>2025-06-30</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.5</priority>
+    </url>
+ <url> <loc>https://digita.click/ai-digital-marketing-blog.html</loc>
+        <lastmod>2025-06-30</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.5</priority>
+    </url>
+ <url> <loc>https://digita.click/future-of-seo.html</loc>
+        <lastmod>2025-06-30</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.5</priority>
+    </url>
+<loc>https://digita.click/ai-strategies-for-mastering-social-media.html</loc>
+        <lastmod>2025-06-30</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.5</priority>
+    </url>
+<loc>https://digita.click/building-digital-empire.html</loc>
+        <lastmod>2025-06-30</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.5</priority>
+    </url>
+<loc>https://digita.click/YouTube-promotion-how-to.html</loc>
+        <lastmod>2025-06-30</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.5</priority>
+    </url>
+</urlset>

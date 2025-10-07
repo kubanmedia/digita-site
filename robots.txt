@@ -1,0 +1,303 @@
+# robots.txt for https://digita.click/
+# Professional SEO-optimized configuration
+# Last updated: June 2025
+
+# ========================================
+# SEARCH ENGINE CRAWLERS - FULL ACCESS
+# ========================================
+
+# Google Bot (Primary search engine)
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+# Bing Bot (Microsoft search)
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Yahoo Bot
+User-agent: Slurp
+Allow: /
+Crawl-delay: 2
+
+# DuckDuckGo Bot
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 1
+
+# Yandex Bot (Russian search engine)
+User-agent: YandexBot
+Allow: /
+Crawl-delay: 2
+
+# Baidu Bot (Chinese search engine)
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 3
+
+# ========================================
+# SPECIALIZED GOOGLE BOTS
+# ========================================
+
+# Google Images
+User-agent: Googlebot-Image
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+
+# Google News
+User-agent: Googlebot-News
+Allow: /news/
+Allow: /blog/
+Allow: /articles/
+Disallow: /admin/
+
+# Google Mobile
+User-agent: Googlebot-Mobile
+Allow: /
+Crawl-delay: 1
+
+# Google Video
+User-agent: Googlebot-Video
+Allow: /videos/
+Allow: /media/
+Disallow: /admin/
+
+# ========================================
+# SOCIAL MEDIA CRAWLERS
+# ========================================
+
+# Facebook Bot (for link previews)
+User-agent: facebookexternalhit
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /api/
+
+# Twitter Bot (for card previews)
+User-agent: Twitterbot
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+
+# LinkedIn Bot
+User-agent: LinkedInBot
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+
+# ========================================
+# SEO & ANALYTICS CRAWLERS
+# ========================================
+
+# Ahrefs Bot (SEO analysis)
+User-agent: AhrefsBot
+Allow: /
+Crawl-delay: 5
+
+# SEMrush Bot
+User-agent: SemrushBot
+Allow: /
+Crawl-delay: 5
+
+# Moz Bot
+User-agent: rogerbot
+Allow: /
+Crawl-delay: 5
+
+# Screaming Frog SEO Spider
+User-agent: Screaming Frog SEO Spider
+Allow: /
+Crawl-delay: 2
+
+# ========================================
+# ARCHIVE & RESEARCH CRAWLERS
+# ========================================
+
+# Internet Archive Wayback Machine
+User-agent: ia_archiver
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Crawl-delay: 10
+
+# Common Crawl (research)
+User-agent: CCBot
+Allow: /
+Disallow: /admin/
+Crawl-delay: 10
+
+# ========================================
+# RESTRICTED ACCESS CRAWLERS
+# ========================================
+
+# Generic aggressive crawlers (limited access)
+User-agent: MJ12bot
+Crawl-delay: 30
+Disallow: /admin/
+Disallow: /private/
+Disallow: /api/
+
+User-agent: DotBot
+Crawl-delay: 30
+Disallow: /admin/
+Disallow: /private/
+
+# ========================================
+# BLOCKED CRAWLERS
+# ========================================
+
+# Aggressive/unwanted bots
+User-agent: AhrefsBot/7.0
+Disallow: /
+
+User-agent: SemrushBot/7~bl
+Disallow: /
+
+User-agent: MJ12bot/v1.4.8
+Disallow: /
+
+# Spam bots
+User-agent: SiteBot
+Disallow: /
+
+User-agent: LinkWalker
+Disallow: /
+
+User-agent: cosmos
+Disallow: /
+
+User-agent: moget
+Disallow: /
+
+User-agent: larbin
+Disallow: /
+
+User-agent: ZyBORG
+Disallow: /
+
+User-agent: scooter
+Disallow: /
+
+User-agent: raven
+Disallow: /
+
+User-agent: psbot
+Disallow: /
+
+User-agent: cicada
+Disallow: /
+
+User-agent: t3lib_parsehtml_dg
+Disallow: /
+
+# ========================================
+# DEFAULT RULES FOR ALL BOTS
+# ========================================
+
+# Default rules for unspecified bots
+User-agent: *
+Allow: /
+
+# Common directories to protect
+Disallow: /admin/
+Disallow: /administrator/
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /wp-content/plugins/
+Disallow: /wp-content/themes/*/
+Disallow: /private/
+Disallow: /temp/
+Disallow: /tmp/
+Disallow: /cache/
+Disallow: /logs/
+Disallow: /backup/
+Disallow: /backups/
+Disallow: /config/
+Disallow: /includes/
+Disallow: /system/
+Disallow: /.git/
+Disallow: /.env
+Disallow: /database/
+Disallow: /db/
+
+# API endpoints (protect sensitive data)
+Disallow: /api/private/
+Disallow: /api/admin/
+Disallow: /api/auth/
+Allow: /api/public/
+
+# File types to exclude
+Disallow: /*.sql$
+Disallow: /*.log$
+Disallow: /*.txt$
+Disallow: /*.bak$
+Disallow: /*.old$
+Disallow: /*.zip$
+Disallow: /*.tar$
+Disallow: /*.gz$
+
+# Parameters to ignore (avoid duplicate content)
+Disallow: /*?utm_
+Disallow: /*?ref=
+Disallow: /*?source=
+Disallow: /*?campaign=
+Disallow: /*?gclid=
+Disallow: /*?fbclid=
+Disallow: /*?print=
+Disallow: /*?sid=
+Disallow: /*?sessionid=
+
+# Development and testing directories
+Disallow: /dev/
+Disallow: /test/
+
+
+# ========================================
+# PREFERRED SITEMAPS
+# ========================================
+
+# Main XML sitemap (update URL as needed)
+Sitemap: https://digita.click/sitemap.xml
+
+# Specialized sitemaps
+
+# ========================================
+# ADDITIONAL SEO OPTIMIZATIONS
+# ========================================
+
+# Clean URLs only (no trailing parameters for main content)
+Allow: /services/*
+Allow: /blog/*
+Allow: /about/*
+Allow: /contact/*
+Allow: /portfolio/*
+Allow: /case-studies/*
+Allow: /resources/*
+
+# Allow social sharing images
+Allow: /images/social/
+Allow: /media/og-images/
+Allow: /assets/share/
+
+# Allow structured data files
+Allow: /schema/
+Allow: /*.json$
+
+# Performance: limit crawl rate for resource-intensive bots
+Crawl-delay: 1
+
+# ========================================
+# NOTES FOR WEBMASTER
+# ========================================
+# 
+# 1. Update sitemap URLs to match your actual sitemap locations
+# 2. Adjust crawl delays based on server performance
+# 3. Monitor Google Search Console for crawl errors
+# 4. Review and update this file quarterly
+# 5. Test changes at: https://www.google.com/webmasters/tools/robots-testing-tool
+# 6. Verify sitemap accessibility at: https://digita.click/sitemap.xml
+#
+# Last review: June 2025
+# Next review: September 2025
